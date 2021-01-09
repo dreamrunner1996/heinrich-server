@@ -1,0 +1,22 @@
+{
+  "name": "heinrich-server",
+  "version": "1.0.0",
+  "description": "heinrich server",
+  "main": "index.js",
+  "repository": "https://heinrich.goho.co",
+  "author": {
+    "url": "https://heinrich.goho.co",
+    "name": "heinrich",
+    "email": "857200793@qq.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "querystring": "^0.2.0",
+    "body-parser": "^1.19.0"
+  }
+}
