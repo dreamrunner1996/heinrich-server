@@ -85,10 +85,13 @@ function RouterPut () {}
 function RouterDelete () {}
 
 // 设置静态文件
+
+
 app.use('/api', express.static('api'))
 app.use('/router', express.static('router'))
 app.use('/public', express.static('public'))
 app.use('/music', express.static('music'))
+app.use('/photo', express.static('photo'))
 
 // 设置路由
 RouterGet('/', false, 'express')
@@ -97,7 +100,8 @@ RouterPost('/post', true, 'this is post data')
 
 // 数据库增删改查接口
 app.post('/addSqlData', urlencodedParser, (req, res) => {
-    res.setHeader('Content-Type','text/plain;charset=utf-8')
+    res.setHeader('Content-Type','text/plain;charset=ut' +
+        'f-8')
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
     const reqBody = req.body
@@ -151,6 +155,14 @@ app.get('/musicList', (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
     const fileListArray = getFiles.getFileList("./music/")
+    res.send(fileListArray)
+    res.end()
+})
+app.get('/photoList', (req, res) => {
+    res.setHeader('Content-Type','text/plain;charset=utf-8')
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
+    const fileListArray = getFiles.getFileList("./photo/")
     res.send(fileListArray)
     res.end()
 })
