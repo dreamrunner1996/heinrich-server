@@ -85,8 +85,6 @@ function RouterPut () {}
 function RouterDelete () {}
 
 // 设置静态文件
-
-
 app.use('/api', express.static('api'))
 app.use('/router', express.static('router'))
 app.use('/public', express.static('public'))
@@ -100,8 +98,7 @@ RouterPost('/post', true, 'this is post data')
 
 // 数据库增删改查接口
 app.post('/addSqlData', urlencodedParser, (req, res) => {
-    res.setHeader('Content-Type','text/plain;charset=ut' +
-        'f-8')
+    res.setHeader('Content-Type','text/plain;charset=utf-8')
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
     const reqBody = req.body
@@ -166,10 +163,17 @@ app.get('/photoList', (req, res) => {
     res.send(fileListArray)
     res.end()
 })
+app.get('/photoInformation', (req, res) => {
+    res.setHeader('Content-Type','text/plain;charset=utf-8')
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
+    let data = fs.readFileSync('./public/photo.json', "utf-8")
+    res.send(data)
+})
 app.get('/download', (req, res) => {
     res.setHeader('Content-Type','text/plain;charset=utf-8')
     res.setHeader('Access-Control-Allow-Origin', '*')
-    res.setHeader('Acscess-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
     const path = req.query
     const fileUrl = decodeURI(path.url)
     const fileName = decodeURI(path.name)
