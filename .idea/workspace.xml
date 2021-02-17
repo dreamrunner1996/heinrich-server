@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update init">
-      <change afterPath="$PROJECT_DIR$/public/photo.json" afterDir="false" />
+    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2020-01-22 22:03:00">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/setting/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/setting/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1klKjINpHs1qNUzgno4P1i9Aefm" />
@@ -52,7 +56,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/postman" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\85720\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.7660.23\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -81,6 +85,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="" />
@@ -108,7 +115,11 @@
       <workItem from="1611187287547" duration="13000" />
       <workItem from="1611220671615" duration="50000" />
       <workItem from="1611273994093" duration="11000" />
-      <workItem from="1611313293959" duration="7064000" />
+      <workItem from="1611313293959" duration="7180000" />
+      <workItem from="1611899394452" duration="814000" />
+      <workItem from="1612173556321" duration="2430000" />
+      <workItem from="1612224084505" duration="13000" />
+      <workItem from="1613550836408" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="update init">
       <created>1610153564208</created>
@@ -124,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611220687294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update 2020-01-22 22:03:00">
+      <created>1611324217432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611324217432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,37 +162,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update init" />
-    <option name="LAST_COMMIT_MESSAGE" value="update init" />
+    <MESSAGE value="update 2020-01-22 22:03:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609991402592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609991402592" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1611321695016">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612224095916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611321695016" />
-    <state width="1899" height="229" key="GridCell.Tab.0.bottom" timestamp="1611321733865">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612224095916" />
+    <state width="1876" height="229" key="GridCell.Tab.0.bottom" timestamp="1612187860266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611321733865" />
-    <state width="1899" height="229" key="GridCell.Tab.0.center" timestamp="1611321733865">
+    <state width="1876" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
+    <state width="1876" height="229" key="GridCell.Tab.0.center" timestamp="1612187860266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611321733865" />
-    <state width="1899" height="229" key="GridCell.Tab.0.left" timestamp="1611321733864">
+    <state width="1876" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
+    <state width="1876" height="229" key="GridCell.Tab.0.left" timestamp="1612187860266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611321733864" />
-    <state width="1899" height="229" key="GridCell.Tab.0.right" timestamp="1611321733865">
+    <state width="1876" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
+    <state width="1876" height="229" key="GridCell.Tab.0.right" timestamp="1612187860266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611321733865" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1610153607345">
+    <state width="1876" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1613550913135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610153607345" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613550913135" />
     <state x="663" y="207" width="594" height="626" key="find.popup" timestamp="1609919528301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
