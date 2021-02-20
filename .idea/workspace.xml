@@ -16,17 +16,32 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2020-01-22 22:03:00">
+    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2020-02-18 01:24">
+      <change afterPath="$PROJECT_DIR$/study/css.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/electron.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/html.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/nodejs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/vue.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/setting/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/setting/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,6 +135,9 @@
       <workItem from="1612173556321" duration="2430000" />
       <workItem from="1612224084505" duration="13000" />
       <workItem from="1613550836408" duration="673000" />
+      <workItem from="1613582560012" duration="2089000" />
+      <workItem from="1613693147334" duration="11397000" />
+      <workItem from="1613819776321" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="update init">
       <created>1610153564208</created>
@@ -142,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611324217432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 2020-02-18 01:24">
+      <created>1613582692293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613582692293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +178,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -163,44 +200,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update init" />
     <MESSAGE value="update 2020-01-22 22:03:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="update 2020-02-18 01:24" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2020-02-18 01:24" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609991402592">
+    <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613820891548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609991402592" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612224095916">
+    <state x="713" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613820891548" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1613693256469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612224095916" />
-    <state width="1876" height="229" key="GridCell.Tab.0.bottom" timestamp="1612187860266">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613693256469" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1613822293327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
-    <state width="1876" height="229" key="GridCell.Tab.0.center" timestamp="1612187860266">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613822293327" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1613822293327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
-    <state width="1876" height="229" key="GridCell.Tab.0.left" timestamp="1612187860266">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613822293327" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1613822293327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
-    <state width="1876" height="229" key="GridCell.Tab.0.right" timestamp="1612187860266">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613822293327" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1613822293327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612187860266" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1613550913135">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613822293327" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1613582700134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613550913135" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613582700134" />
     <state x="663" y="207" width="594" height="626" key="find.popup" timestamp="1609919528301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="207" width="594" height="626" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609919528301" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606375030412">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613718400282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606375030412" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613718400282" />
   </component>
 </project>
