@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="vue.js"></script>
+</head>
+<body>
+  <div id="app">{{ dt }}</div>
+
+  <script>
+    const App = new Vue({
+      el: '#app',
+      data: () => ({
+          dt: 1
+      }),
+      beforeCreate: function () {
+        console.log('before create!');
+        console.log(this.dt)
+        this.Test()
+      },
+      created: function () {
+        console.log('created!')
+          console.log(this.dt)
+        this.Test()
+      },
+        beforeMount: function () {
+            console.log('beforeMount!')
+            this.dt = 3
+        },
+        mounted: function () {
+            console.log('mounted!')
+            this.dt = 7
+        },
+        beforeUpdate: function () {
+            console.log('beforeUpdate!')
+        },
+        updated: function () {
+            console.log('updated!')
+        },
+        beforeDestroy: function () {
+            console.log('beforeDestroy!')
+        },
+        destroyed: function () {
+            console.log('destroyed!')
+        },
+      methods: {
+        Test: function () {
+          console.log('Test')
+        }
+      }
+    })
+  </script>
+</body>
+</html>

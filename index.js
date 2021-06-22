@@ -223,6 +223,20 @@ app.get('/studyNodeJS', (req, res) => {
     let data = fs.readFileSync('./study/nodejs.json', "utf-8")
     res.send(data)
 })
+app.get('/studyUIFrame', (req, res) => {
+    res.setHeader('Content-Type','text/plain;charset=utf-8')
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
+    let data = fs.readFileSync('./study/ui-frame.json', "utf-8")
+    res.send(data)
+})
+app.get('/interview', (req, res) => {
+    res.setHeader('Content-Type','text/plain;charset=utf-8')
+    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, DELETE')
+    let data = fs.readFileSync('./interview/interview.json', "utf-8")
+    res.send(data)
+})
 
 SettingApi.SettingListen()
 app.listen(SettingApi.listenPort)

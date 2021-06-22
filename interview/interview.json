@@ -1,0 +1,31 @@
+[
+  {
+    "type": "html",
+    "title": "前端 html 方向",
+    "list": [
+      { "key": "html-1", "title": "题目1", "question": "简述一下你对 HTML 语义化的理解？", "url": "http://localhost:1145/interview/html/html-1" }
+    ]
+  },
+  {
+    "type": "css",
+    "title": "前端 css 方向",
+    "list": [
+      { "key": "css-1", "title": "题目1", "question": "div+css 的布局较 table 布局有什么优点？", "url": "http://localhost:1145/interview/html/css-1" }
+    ]
+  },
+  {
+    "type": "vue",
+    "title": "前端 vue 方向",
+    "list": [
+      { "key": "vue-1", "title": "题目1", "question": "v-model 的 本质是什么?", "url": "http://localhost:1145/interview/vue/vue-1" },
+      { "key": "vue-2", "title": "题目2", "question": "请说明一下 vue的事件总线(vue-bus)?", "url": "http://localhost:1145/interview/vue/vue-2" },
+      { "key": "vue-3", "title": "题目3", "question": "请简单阐述一下 vue的生命周期 !", "url": "http://localhost:1145/interview/vue/vue-3" },
+      { "key": "vue-4", "title": "题目4", "question": "说明一下 路由之间跳转 方式! (这里有用 vue-router)", "url": "http://localhost:1145/interview/vue/vue-4" },
+      { "key": "vue-5", "title": "题目5", "question": "请简单说明一下 vue 组件与组件之间的传值!", "url": "http://localhost:1145/interview/vue/vue-5" },
+      { "key": "vue-6", "title": "题目6", "question": "请说明在 vue-cli 自定义组件 的定义,导出,导入,使用.", "url": "http://localhost:1145/interview/vue/vue-6" },
+      { "key": "vue-7", "title": "题目7", "question": "vuex 是什么? 如何使用它? 在哪种场景下我们会用到它呢? 如果我们不使用它会怎么样呢(有什么问题)?", "url": "http://localhost:1145/interview/vue/vue-7" },
+      { "key": "vue-8", "title": "题目8", "question": "vuex 中有哪几种属性? 然后各自简单说明一下!", "url": "http://localhost:1145/interview/vue/vue-8" },
+      { "key": "vue-9", "title": "题目9", "question": "v-if 和 v-show 有什么共同点, 有什么不同点? 区别是什么?", "url": "http://localhost:1145/interview/vue/vue-9" }
+    ]
+  }
+]

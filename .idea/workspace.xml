@@ -16,11 +16,35 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="">
+    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2020-02-18 01:24">
+      <change afterPath="$PROJECT_DIR$/api/jwt/mysql/jwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/interview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/ui-frame.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/getFile/api.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/jwt/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/mysql/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/mysql/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/mysql/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/jwt/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/vue.json" beforeDir="false" afterPath="$PROJECT_DIR$/study/vue.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +57,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,9 +75,6 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1klKjINpHs1qNUzgno4P1i9Aefm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,19 +82,51 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fi-project/fi-server" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="ts.external.directory.path" value="C:\Users\85720\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.7660.23\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview\list" />
       <recent name="C:\Users\85720\Documents\GitHub\heinrich-server" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.interview-start">
+    <configuration name="interview-start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="interview-start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="jwt" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="jwt" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -86,7 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.interview-start" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.jwt" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +181,23 @@
       <workItem from="1612173556321" duration="2430000" />
       <workItem from="1612224084505" duration="13000" />
       <workItem from="1613550836408" duration="673000" />
+      <workItem from="1613582560012" duration="2089000" />
+      <workItem from="1613693147334" duration="11397000" />
+      <workItem from="1613819776321" duration="2418000" />
+      <workItem from="1613867001679" duration="35000" />
+      <workItem from="1613867044247" duration="101000" />
+      <workItem from="1613867154084" duration="178000" />
+      <workItem from="1613869024952" duration="3225000" />
+      <workItem from="1615181645735" duration="1717000" />
+      <workItem from="1615187323920" duration="3225000" />
+      <workItem from="1617774652588" duration="94000" />
+      <workItem from="1617851719168" duration="1854000" />
+      <workItem from="1618890850024" duration="8879000" />
+      <workItem from="1619251426052" duration="1897000" />
+      <workItem from="1619405474922" duration="8000" />
+      <workItem from="1619420902167" duration="11000" />
+      <workItem from="1619748159203" duration="315000" />
+      <workItem from="1624320732404" duration="11121000" />
     </task>
     <task id="LOCAL-00001" summary="update init">
       <created>1610153564208</created>
@@ -148,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611324217432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 2020-02-18 01:24">
+      <created>1613582692293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613582692293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +238,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -169,6 +260,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update init" />
     <MESSAGE value="update 2020-01-22 22:03:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="update 2020-02-18 01:24" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2020-02-18 01:24" />
   </component>
 </project>

@@ -1,9 +1,28 @@
 [
   {
-    "key": "vue",
-    "title": "vue",
-    "description": "w3school",
-    "url": "https://www.w3school.com.cn/tags/tag_html.asp",
-    "context": "HTML <html> 标签, 由 w3school 提供"
+    "key": "vue2",
+    "title": "vue2",
+    "children": [
+      {
+        "key": "vue2",
+        "title": "vue2-tem",
+        "description": "vue2 使用",
+        "url": "https://cn.vuejs.org/v2/guide/",
+        "context": "vue2 学习教程"
+      }
+    ]
+  },
+  {
+    "key": "vue3",
+    "title": "vue3",
+    "children": [
+      {
+        "key": "vue3",
+        "title": "vue3-tem",
+        "description": "vue3 使用",
+        "url": "https://v3.vuejs.org/guide/introduction.html",
+        "context": "vue3 学习教程"
+      }
+    ]
   }
 ]

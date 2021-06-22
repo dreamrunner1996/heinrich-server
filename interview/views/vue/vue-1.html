@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vue-1</title>
+  <script src="vue.js"></script>
+</head>
+<body>
+  <pre></pre>
+  <div id="app">
+    <p>{{ inputStr }}</p>
+    <hr>
+    这是 v-model <br>
+    {{ jjStr }} <br>
+    <input v-model="str" type="text" /> {{ str }}
+    <hr>
+    这不是 v-model <br>
+    {{ jjStr1 }} <br>
+    <input :value="str1" @input="str1 = $event.target.value" type="text" /> {{ str1 }}
+  </div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        inputStr: '<input v-model="xxx" />',
+        str: 'hello vue!',
+        jjStr: '<input v-model="str" type="text" />',
+        str1: 'hello vue!',
+        jjStr1: '<input :value="str1" @input="str1 = $event.target.value" type="text" />'
+      }
+    })
+  </script>
+</body>
+</html>
