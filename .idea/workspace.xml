@@ -29,26 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2021-06-22">
-      <change afterPath="$PROJECT_DIR$/interview/views/css/css-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/css/css-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/css/css-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/css/css-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/css/css-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/css/css-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-9.html" afterDir="false" />
+    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2021-08-13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/interview.json" beforeDir="false" afterPath="$PROJECT_DIR$/interview/interview.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/views/html/html-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/html/html-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/views/vue/vue-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/vue/vue-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/views/vue/vue-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/vue/vue-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/views/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/vue.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +206,8 @@
       <workItem from="1628467516548" duration="2142000" />
       <workItem from="1628470006292" duration="11371000" />
       <workItem from="1628660891312" duration="9000" />
+      <workItem from="1628822976825" duration="58000" />
+      <workItem from="1628823737877" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="update init">
       <created>1610153564208</created>
@@ -260,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624332218931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update 2021-08-13">
+      <created>1628822995801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628822995801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +286,7 @@
     <MESSAGE value="update 2020-01-22 22:03:00" />
     <MESSAGE value="update 2020-02-18 01:24" />
     <MESSAGE value="update 2021-06-22" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2021-06-22" />
+    <MESSAGE value="update 2021-08-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2021-08-13" />
   </component>
 </project>
