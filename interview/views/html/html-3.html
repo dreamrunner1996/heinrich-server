@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="./../vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <ul>
+    <li>{{ str1 }}</li>
+    <li>{{ str2 }}</li>
+    <li>{{ str3 }}</li>
+  </ul>
+  <img src="html-3.png" alt="#" />
+  <hr />
+  <ul>
+    <li>浏览器加载到js文件时, 它会停止当前dom加载运行然后访问js文件再执行js文件.</li>
+    <li>async 是在js加载过程中(访问阶段), 不会停止dom的加载运行, 然后等待js文件访问完成再停止当前dom加载执行js脚本.</li>
+    <li>defer 是在js加载过程中(访问阶段), 不会停止dom的加载运行, 然后在文档所有的元素解析完成之后再执行js脚本.</li>
+  </ul>
+</div>
+
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: () => ({
+      str1: '<script>',
+      str2: '<script defer>',
+      str3: '<script async>'
+    })
+  })
+</script>
+</body>
+</html>

@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="./../vue.js"></script>
 </head>
 <body>
-    <div>this is html-1 page!</div>
+    <div id="app">
+        代码实例: <br />
+        {{ cssStr }} <br />
+        {{ jsStr }}
+        <hr />
+        {{ result }} <br />
+        {{ srcEx }} <br />
+        {{ hrefEx }}
+    </div>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: () => ({
+                cssStr: '<link rel="stylesheet" href="xx.css">',
+                jsStr: '<script type="text/javascript" src="xx.js" />',
+                result: '因为src是同步, href是异步. (javaScript 的单线程特性)',
+                srcEx: 'src 进行请求时, 它会将其加载到当前标签里. 当浏览器解析到这个元素时, 它会暂停其它资源的下载和处理(直到执行完成.).',
+                hrefEx: 'href 指向网络资源, 从而建立当前元素/文档的一些链接关系. 当浏览器识别到它指向的文件时, 它会顺带进行下载, 而不会停止当前文档的处理. 一般用在 a、link 这些标签上.'
+            })
+        })
+    </script>
 </body>
 </html>

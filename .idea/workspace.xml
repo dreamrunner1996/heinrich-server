@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,25 +29,26 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2020-02-18 01:24">
-      <change afterPath="$PROJECT_DIR$/api/jwt/mysql/jwt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/interview.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/html/html-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/views/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/ui-frame.json" afterDir="false" />
+    <list default="true" id="f4280709-658c-45a3-895e-571a3970ea58" name="Default Changelist" comment="update 2021-06-22">
+      <change afterPath="$PROJECT_DIR$/interview/views/css/css-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/css/css-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/css/css-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/css/css-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/css/css-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/css/css-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/views/html/html-9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/getFile/api.css" beforeDir="false" afterPath="$PROJECT_DIR$/api/jwt/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/mysql/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/mysql/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/mysql/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/jwt/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/vue.json" beforeDir="false" afterPath="$PROJECT_DIR$/study/vue.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/interview.json" beforeDir="false" afterPath="$PROJECT_DIR$/interview/interview.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/views/html/html-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/html/html-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/views/vue/vue-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/vue/vue-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/views/vue/vue-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/vue/vue-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/views/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/interview/views/vue.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1klKjINpHs1qNUzgno4P1i9Aefm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -81,10 +93,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fi-project/fi-server" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -99,14 +113,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview\views\css" />
+      <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview\views\html" />
       <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview\list" />
       <recent name="C:\Users\85720\Documents\GitHub\heinrich-server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview\views" />
       <recent name="C:\Users\Heinrich\Desktop\heinrich-server\interview" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.interview-start">
+  <component name="RunManager" selected="npm.jwt">
     <configuration name="interview-start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -139,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.interview-start" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.interview-start" />
         <item itemvalue="npm.jwt" />
       </list>
     </recent_temporary>
@@ -197,7 +214,16 @@
       <workItem from="1619405474922" duration="8000" />
       <workItem from="1619420902167" duration="11000" />
       <workItem from="1619748159203" duration="315000" />
-      <workItem from="1624320732404" duration="11121000" />
+      <workItem from="1624320732404" duration="25734000" />
+      <workItem from="1624442788638" duration="6523000" />
+      <workItem from="1624530909582" duration="4293000" />
+      <workItem from="1624579407634" duration="9000" />
+      <workItem from="1625195507766" duration="917000" />
+      <workItem from="1625535148884" duration="34000" />
+      <workItem from="1626053674886" duration="4259000" />
+      <workItem from="1628467516548" duration="2142000" />
+      <workItem from="1628470006292" duration="11371000" />
+      <workItem from="1628660891312" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="update init">
       <created>1610153564208</created>
@@ -227,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613582692293</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update 2021-06-22">
+      <created>1624332218931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624332218931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +294,7 @@
     <MESSAGE value="update init" />
     <MESSAGE value="update 2020-01-22 22:03:00" />
     <MESSAGE value="update 2020-02-18 01:24" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2020-02-18 01:24" />
+    <MESSAGE value="update 2021-06-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2021-06-22" />
   </component>
 </project>

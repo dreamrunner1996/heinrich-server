@@ -3,14 +3,28 @@
     "type": "html",
     "title": "前端 html 方向",
     "list": [
-      { "key": "html-1", "title": "题目1", "question": "简述一下你对 HTML 语义化的理解？", "url": "http://localhost:1145/interview/html/html-1" }
+      { "key": "html-1", "title": "题目1", "question": "为什么引入css和引入js时, css放在上面而js放在下面?", "url": "http://localhost:1145/interview/html/html-1" },
+      { "key": "html-2", "title": "题目2", "question": "简单说一下 HTML语义化", "url": "http://localhost:1145/interview/html/html-2" },
+      { "key": "html-3", "title": "题目3", "question": "说一下 script 标签中的 defer, async 区别", "url": "http://localhost:1145/interview/html/html-3" },
+      { "key": "html-4", "title": "题目4", "question": "title和h1, b和strong, i和em 区别", "url": "http://localhost:1145/interview/html/html-4" },
+      { "key": "html-5", "title": "题目5", "question": "说一下 iframe, 以及简单说明下优缺点", "url": "http://localhost:1145/interview/html/html-5" },
+      { "key": "html-6", "title": "题目6", "question": "说一下 label", "url": "http://localhost:1145/interview/html/html-6" },
+      { "key": "html-7", "title": "题目7", "question": "head 标签有啥用, 其中里面什么标签是必不可少的?", "url": "http://localhost:1145/interview/html/html-7" },
+      { "key": "html-8", "title": "题目8", "question": "在html中, 出现乱码该怎么解决?", "url": "http://localhost:1145/interview/html/html-8" },
+      { "key": "html-9", "title": "题目9", "question": "聊一下html5中的 (拖放)drag", "url": "http://localhost:1145/interview/html/html-9" }
     ]
   },
   {
     "type": "css",
     "title": "前端 css 方向",
     "list": [
-      { "key": "css-1", "title": "题目1", "question": "div+css 的布局较 table 布局有什么优点？", "url": "http://localhost:1145/interview/html/css-1" }
+      { "key": "css-1", "title": "题目1", "question": "display的block、inline和inline-block的区别?", "url": "http://localhost:1145/interview/css/css-1" },
+      { "key": "css-2", "title": "题目2", "question": "隐藏元素的方式有哪些?", "url": "http://localhost:1145/interview/css/css-2" },
+      { "key": "css-3", "title": "题目3", "question": "link 以及 import 的区别", "url": "http://localhost:1145/interview/css/css-3" },
+      { "key": "css-4", "title": "题目4", "question": "说一下 transition 和 animation", "url": "http://localhost:1145/interview/css/css-4" },
+      { "key": "css-5", "title": "题目5", "question": "display: none 和 visibility: hidden 和 opacity: 0", "url": "http://localhost:1145/interview/css/css-5" },
+      { "key": "css-6", "title": "题目6", "question": "聊聊 margin 和 padding", "url": "http://localhost:1145/interview/css/css-6" },
+      { "key": "css-7", "title": "题目7", "question": "详细说一下 line-height", "url": "http://localhost:1145/interview/css/css-7" }
     ]
   },
   {
@@ -25,7 +39,11 @@
       { "key": "vue-6", "title": "题目6", "question": "请说明在 vue-cli 自定义组件 的定义,导出,导入,使用.", "url": "http://localhost:1145/interview/vue/vue-6" },
       { "key": "vue-7", "title": "题目7", "question": "vuex 是什么? 如何使用它? 在哪种场景下我们会用到它呢? 如果我们不使用它会怎么样呢(有什么问题)?", "url": "http://localhost:1145/interview/vue/vue-7" },
       { "key": "vue-8", "title": "题目8", "question": "vuex 中有哪几种属性? 然后各自简单说明一下!", "url": "http://localhost:1145/interview/vue/vue-8" },
-      { "key": "vue-9", "title": "题目9", "question": "v-if 和 v-show 有什么共同点, 有什么不同点? 区别是什么?", "url": "http://localhost:1145/interview/vue/vue-9" }
+      { "key": "vue-9", "title": "题目9", "question": "v-if 和 v-show 有什么共同点, 有什么不同点? 区别是什么?", "url": "http://localhost:1145/interview/vue/vue-9" },
+      { "key": "vue-10", "title": "题目10", "question": "详细说一下 v-for", "url": "http://localhost:1145/interview/vue/vue-10" },
+      { "key": "vue-11", "title": "题目11", "question": "是否会使用 scss? 怎样在 vue.cli 中使用它呢? 它有什么新特性?", "url": "http://localhost:1145/interview/vue/vue-11" },
+      { "key": "vue-12", "title": "题目12", "question": "说明一下 v-for 中 v-key", "url": "http://localhost:1145/interview/vue/vue-12" },
+      { "key": "vue-13", "title": "题目13", "question": "", "url": "http://localhost:1145/interview/vue/vue-13" }
     ]
   }
 ]

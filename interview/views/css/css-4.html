@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes auto_width {
+            0% { width: 100px }
+            50% { width: 150px }
+            100% { width: 100px }
+        }
+        #transition-div {
+            height: 100px;
+            width: 100px;
+            background-color: coral;
+            transition: width 1s ease;
+        }
+        #transition-div:hover {
+            width: 150px;
+        }
+        #animation-div {
+            animation: auto_width 2s linear infinite;
+            height: 100px;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+transition 是过度属性: 一般它的实现需要通过触发事件进行. 类似于一个普通的flash动画, 有结束帧和起始帧. <br />
+animation  是动画属性: 它不需要通过事件触发就能自己实现, 而且可以一直循环. <br />
+
+<div id="transition-div"></div>
+<div id="animation-div"></div>
+</body>
+</html>
